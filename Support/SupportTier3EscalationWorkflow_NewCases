@@ -1,0 +1,14 @@
+(Case: Case Record TypeEQUALSSupport - T3) AND (Case: StatusNOT EQUAL TOCancelled,Closed) AND 
+(Current User: ProfileNOT EQUAL TOSupport Agent - T3,Support Manager - T3) AND 
+(Case: Case Record TypeNOT EQUAL TOSupport - Telus) AND 
+((Case: Escalate ToEQUALSnull) OR (Case: Escalate ToEQUALSTier 3))
+
+
+Immediate Workflow Actions:
+
+Email Alert: Email Notification to T3
+Email Alert: Escalated Cases with TAM to Tier 3 for New Cases
+Field Update: Support Status
+Field Update: Tier 3 Case Record Type
+Field Update: Tier 3 Esc Count
+Field Update: Tier 3 Case Owner
