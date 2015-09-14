@@ -1,0 +1,2 @@
+Rule Criteria:
+(Case: Case Record TypeNOT EQUAL TOSupport - T1) AND (Case: Escalate ToEQUALSTier 1) AND (Case: ClosedNOT EQUAL TOTrue)
