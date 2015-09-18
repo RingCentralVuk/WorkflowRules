@@ -1,0 +1,6 @@
+(Case: Case Record TypeEQUALSFeedback) AND (Case: BrandDOES NOT CONTAINAT&T,TELUS,BT)
+
+Object: Case
+
+Evaluation criteria: Evaluate the rule when a record is created, and any time it’s edited to subsequently meet criteria.
+
